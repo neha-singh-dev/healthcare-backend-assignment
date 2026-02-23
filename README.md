@@ -38,7 +38,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 Server will start at:
-```
+```code
 http://127.0.0.1:8000/
 ```
 ---
@@ -73,7 +73,7 @@ Example response:
 ### Use JWT Access Token
 
 For all protected endpoints, include this header:
-```
+```code
 Authorization: Bearer <JWT_ACCESS_TOKEN>
 ```
 ---
