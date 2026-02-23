@@ -13,6 +13,17 @@ A Django REST Framework backend for a healthcare system built as part of my inte
 
 ---
 
+## Project Structure
+
+healthcare_backend/
+│
+├── patients/        # Patient model and APIs  
+├── doctors/         # Doctor model and APIs  
+├── mappings/        # Patient-Doctor mapping  
+├── healthcare/      # Main project settings  
+├── db.sqlite3  
+└── manage.py  
+
 ## Setup & Run
 
 ### 1. Clone the repository
@@ -125,6 +136,12 @@ Authorization: Bearer <JWT_ACCESS_TOKEN>
 - JWT-based authentication
 
 - Clean REST API structure
+
+## Future Improvements
+- Add role-based access control (Admin, Doctor)
+- Add pagination for large datasets
+- Add unit tests
+- Deploy to cloud (Render / Railway / AWS)
 
 ---
 
