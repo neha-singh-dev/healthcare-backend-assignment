@@ -38,8 +38,9 @@ python manage.py migrate
 python manage.py runserver
 ```
 Server will start at:
+```
 http://127.0.0.1:8000/
-
+```
 ---
 
 ### Authentication (JWT)
