@@ -48,7 +48,7 @@ This project uses JSON Web Tokens (JWT) for securing API endpoints.
 
 ### Get Token Pair (Login)
 
-POST /api/auth/login/
+-POST `/api/auth/login/`
 
 Example request body:
 
@@ -72,58 +72,58 @@ Example response:
 ### Use JWT Access Token
 
 For all protected endpoints, include this header:
-
+```
 Authorization: Bearer <JWT_ACCESS_TOKEN>
-
+```
 ---
 
 ### API Endpoints
 
 ### Patient
 
-GET `/api/patients/`
+-GET `/api/patients/`
 
-POST `/api/patients/`
+-POST `/api/patients/`
 
-GET `/api/patients/<id>/`
+-GET `/api/patients/<id>/`
 
-PUT `/api/patients/<id>/`
+-PUT `/api/patients/<id>/`
 
-DELETE `/api/patients/<id>/`
+-DELETE `/api/patients/<id>/`
 
 ### Doctor
 
-GET `/api/doctors/`
+-GET `/api/doctors/`
 
-POST `/api/doctors/`
+-POST `/api/doctors/`
 
-GET `/api/doctors/<id>/`
+-GET `/api/doctors/<id>/`
 
-PUT `/api/doctors/<id>/`
+-PUT `/api/doctors/<id>/`
 
-DELETE `/api/doctors/<id>/`
+-DELETE `/api/doctors/<id>/`
 
 ### Mapping (Patient-Doctor)
 
-GET `/api/mappings/`
+-GET `/api/mappings/`
 
-POST `/api/mappings/`
+-POST `/api/mappings/`
 
-GET `/api/mappings/<id>/`
+-GET `/api/mappings/<id>/`
 
-PUT `/api/mappings/<id>/`
+-PUT `/api/mappings/<id>/`
 
-DELETE `/api/mappings/<id>/`
+-DELETE `/api/mappings/<id>/`
 
 ### Features
 
-Full CRUD for Patient, Doctor, and Mapping models
+-Full CRUD for Patient, Doctor, and Mapping models
 
-Foreign key relationship between Patient and Doctor
+-Foreign key relationship between Patient and Doctor
 
-JWT-based authentication
+-JWT-based authentication
 
-Clean REST API structure
+-Clean REST API structure
 
 ---
 
